@@ -31,9 +31,9 @@
 
 header {
     background-color: #FFFFFF;
-    padding-top: 50px;
-    width: 71%;
-    max-width: 1600px;
+    padding-top: 20px;
+    /* width: 71%;
+    max-width: 1600px; */
     margin: 0 auto;
 }
 
@@ -43,6 +43,7 @@ nav {
     padding: 16px 120px;
     border-bottom: 1px solid;
     align-items: center;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -98,16 +99,15 @@ nav .menu a {
 }
 
 #mini-sec {
-    width: 71%;
-    max-width: 1600px;
-    padding: 0px 120px;
+    /* width: 71%;
+    max-width: 1600px; */
+    /* padding: 0px 120px; */
     margin: 0 auto;
 }
 
 #mini-sec .mini-content {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin: 30px 0px;
 }
 
 #mini-sec .mini-content h2 {
@@ -115,9 +115,9 @@ nav .menu a {
     font-family: Inter;
     font-weight: 700;
     font-style: Bold;
-    font-size: 45px;
+    font-size: 48px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 20%;
     text-align: center;
     text-transform: capitalize;
 
@@ -148,6 +148,7 @@ nav .menu a {
     gap: 10px;
     opacity: 1;
     padding: 24px;
+    margin-bottom: 30px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
 
 }
@@ -179,4 +180,108 @@ nav .menu a {
     line-height: 150%;
     text-align: center;
     margin-top: 8px;
+}
+
+#working {
+    /* width: 71%;
+    max-width: 1600px; */
+    margin: 0 auto;
+}
+
+#working .mini-work {
+    padding: 0px 120px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#working .mini-work .image {
+    width: 650px;
+    height: 600px;
+    margin-left: -25px;
+}
+#working .mini-work .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#working .mini-work .content {
+    padding: 120px 0px 120px;
+    width: 50%;
+}
+
+.content-work {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: left;
+    padding-right: 40%;
+}
+
+.content-text h2 {
+    margin-top: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.content-text p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 16px;
+}
+.content-text ul {
+    margin-top: 24px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.content-text ul li {
+    font-family: Inter;
+    font-weight: 900;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+#prefoot {
+    margin: 0 auto;
+    padding: 100px 120px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#prefoot .pre-content {
+    padding: 0px 120px;
+    margin: 0px 120px;
+}
+
+#prefoot .pre-content h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+
+#prefoot .pre-content p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+#prefoot .pre-content button {
+    margin-top: 24px;
 }
