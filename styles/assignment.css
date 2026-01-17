@@ -199,7 +199,6 @@ nav .menu a {
 #working .mini-work .image {
     width: 650px;
     height: 600px;
-    margin-left: -25px;
 }
 #working .mini-work .image img {
     width: 100%;
@@ -254,14 +253,17 @@ nav .menu a {
 
 #prefoot {
     margin: 0 auto;
-    padding: 100px 120px;
     text-align: center;
-    background-color: #f8f9fa;
 }
 
 #prefoot .pre-content {
     padding: 0px 120px;
-    margin: 0px 120px;
+}
+
+#prefoot .pre-text {
+    margin: 100px auto;
+    padding: 90px 120px;
+    background-color: #f8f9fa;
 }
 
 #prefoot .pre-content h2 {
@@ -284,4 +286,40 @@ nav .menu a {
 
 #prefoot .pre-content button {
     margin-top: 24px;
+}
+footer {
+    margin: 0 auto;
+    padding: 130px 120px 40px;
+    background-color: rgba(0, 0, 0, 0.756);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-menu h3 {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer-menu ul {
+    display: flex;
+    gap: 10px;
+}
+.footer-menu li{
+    list-style: none;
+}
+.footer-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 5px;
+}
+.middle {
+    color: #ffffffc2;
+    margin: 80px auto 50px;
+}
+
+.footer-rights {
+    color: #FFFFFF;
+    text-align: center;
 }
